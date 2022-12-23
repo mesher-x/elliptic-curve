@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../go-ec"
+		},
+		{
+			"path": "../opencl-ec"
+		},
+		{
+			"path": "../../refs"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cstdarg": "cpp",
+			"cstdlib": "cpp",
+			"new": "cpp"
+		}
+	}
+}

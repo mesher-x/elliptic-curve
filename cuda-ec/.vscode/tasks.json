@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build - nvcc",
+            "type": "shell",
+            "command": "make main dbg=1 gpu=1 ccap=75",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$nvcc"
+            ]
+        }
+    ]
+}
